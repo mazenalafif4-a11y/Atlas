@@ -3,25 +3,7 @@ import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
 import { motion } from 'framer-motion';
-import { 
-  Upload, 
-  Link as LinkIcon, 
-  FileText, 
-  Shield, 
-  CheckCircle,
-  AlertCircle,
-  X,
-  Image,
-  Video,
-  Music,
-  FileIcon,
-  Globe,
-  Calendar,
-  Tag,
-  MapPin,
-  User,
-  Lock
-} from 'lucide-react';
+import { Upload, Link as LinkIcon, FileText, Shield, CheckCircle, AlertCircle, X, Image, Video, Music, File as FileIcon, Globe, Calendar, Tag, MapPin, User, Lock } from 'lucide-react';
 import { Button } from '../components/ui/Button';
 import { Input } from '../components/ui/Input';
 import { Card, CardContent, CardHeader } from '../components/ui/Card';
